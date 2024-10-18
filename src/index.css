@@ -7,33 +7,3 @@
 :root * {
   box-sizing: border-box;
 }
-
-
-
-
-
-/*-----Testing-----*/
-#test-div {
-  width: 700px;
-  min-height: 100px;
-  outline: 1px solid white;
-  margin: 70px auto;
-  padding: 1rem;
-}
-#test-p {
-  text-align: center;
-}
-#test-div button {
-  border: none;
-  border-radius: 25px;
-  padding: 0.4rem;
-  background-color: orange;
-  color: #212121;
-}
-#test-div button:hover {
-  background-color: red;
-  cursor: pointer;
-}
-#test-div button:active {
-  background-color: violet;
-}
