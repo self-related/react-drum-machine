@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 #display {
-  min-width: 100px;
+  min-width: 300px;
   width: 40%;
   min-height: 4rem;
   margin: 30px auto;
@@ -17,13 +17,19 @@
   align-content: center;
 }
 #drum-machine {
-  min-width: 100px;
+  min-width: 300px;
   width: 40%;
   margin: 0 auto;
   border: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+#volume-control-box {
+  display: flex;
+  margin: 1rem auto;
+  gap: 0.5rem;
+  width: fit-content;
 }
 .drum-pad {
   width: 33%;
